@@ -5,10 +5,17 @@ public class Customers {
 	private String name;
 	private String address;
 	private double cashOnHand;
-	private long phoneNo;
+	//private long phoneNo;
 	String stateOfPurchase="MH";
+	private boolean finance ;
 	
 	
+	public boolean isFinance() {
+		return finance;
+	}
+	public void setFinance(boolean finance) {
+		this.finance = finance;
+	}
 	public String getName() {
 		return name;
 	}

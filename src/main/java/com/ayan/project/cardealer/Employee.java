@@ -41,9 +41,9 @@ private String name;
 	private void getCreditHistory(Vehicals veh,Customers cust, double loanAmount,String state) {
 		System.out.println("Congrulation,You have financed by Bank");
 		System.out.println("your are Eligible to buy " + veh.getCompanyName() );
-		System.out.println(loanAmount + " is paid by Bank");
+		System.out.println((int)	 (loanAmount) + " is paid by Bank");
 		veh.setCarPlateNo(state);
-		System.out.println("Your car No plate is " + veh.getCarPlateNo());
+		System.out.println("Your car No plate is \" " + veh.getCarPlateNo() +" \"");
 		
 	}
 
